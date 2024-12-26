@@ -7,6 +7,9 @@ const app = http.createServer((req, res) => {
 });
 
 // Start the server and listen on port 4000
-app.listen(4000, () => {
-    console.log('Server is running on port 4000');
+
+const port = process.env.port
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
 });
+

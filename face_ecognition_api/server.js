@@ -44,8 +44,8 @@ app.put('/image', (req, res) => {image(req, res, db)});
 
 app.post('/setUpInfo', (req, res) => {setUpInfo(req, res)})
 
-
-app.listen(4500, (err) => {
-    console.log(err)
+const port = process.env.port || 4500
+app.listen(port, () => {
+    `server is running on port ${port}`
 })
 

@@ -141,6 +141,7 @@ const onButtonSubmit = () => {
 
 const handleAuthentication = () => {
     setIsAuthenticated(true); // Update the authentication state
+    setSignedIn(true)
     navigate('/home'); // Navigate to the home route
   };    
 
