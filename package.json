@@ -13,6 +13,7 @@
   "dependencies": {
     "@tsparticles/all": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
+    "axios": "^1.7.9",
     "bcrypt-nodejs": "^0.0.3",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
