@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node face_ecognition_api/server.js"
   },
   "dependencies": {
     "@tsparticles/all": "^3.5.0",
