@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "node face_ecognition_api/server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon face_ecognition_api/server.js"
   },
   "dependencies": {
     "@tsparticles/all": "^3.5.0",
