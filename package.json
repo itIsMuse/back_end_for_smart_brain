@@ -4,17 +4,24 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node face_ecognition_api/server.js",
+    "dev": "nodemon face_ecognition_api/server.js"
   },
   "dependencies": {
     "@tsparticles/all": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
+    "axios": "^1.7.9",
+    "bcrypt-nodejs": "^0.0.3",
     "bcryptjs": "^2.4.3",
+    "clarifai": "^2.9.1",
     "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "knex": "^3.1.0",
     "particle-bg": "^0.5.0",
+    "pg": "^8.13.1",
     "react": "^18.3.1",
     "react-background-image": "^2.0.1",
     "react-dom": "^18.3.1",

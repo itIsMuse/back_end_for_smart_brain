@@ -13,11 +13,11 @@ import setUpInfo from './controllers/setUpInfo.js'
 const db = knex({
     client: 'pg',
     connection: {
-      host: '127.0.0.1',
+      host: 'dpg-ctno1stumphs73c8adr0-a',
       port: 5432,
       user: 'oluwalonmuseya',
-      password: '1Temito',
-      database: 'smart_brain',
+      password: 'PeW9Uc2TIhGWK8FoFoV0fWBnEXVGTGaY',
+      database: 'smart_brain_97bf',
     },
   });
 
@@ -49,3 +49,4 @@ app.listen(port, () => {
     `server is running on port ${port}`
 })
 
+// still fighting with the whole deployement , i wil get it
