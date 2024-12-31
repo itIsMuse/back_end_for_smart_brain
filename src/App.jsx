@@ -193,5 +193,4 @@ const handleSignInOff = () => {
 
 export default App
 
-
-//its still not working but i think i was able to get into clarifai so thats good  now i just need to understand the app enough to continue what i am doing maybe test without the backend call and see what it is outputing 
+//unmerge front-end from back-end
