@@ -83,4 +83,4 @@ const SignIn = ({signedIn, onAuthenticate, loadUser}) => {
 // i just used this one to mark attendance oooo, i am not sure it work i just want it to show that i contributed something on monday
 export default SignIn;
 
-// fix sign out 
+
