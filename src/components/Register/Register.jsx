@@ -22,6 +22,7 @@ const onNameChange = (event) =>{
 }
 
 const sendInfo = () => {
+  event.preventDefault()
   fetch('https://face-ecognition-api.onrender.com/register', {
     method: "POST",
     headers: { "Content-Type": "application/json" },

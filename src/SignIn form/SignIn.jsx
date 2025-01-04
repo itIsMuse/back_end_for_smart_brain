@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import { useNavigate } from 'react-router-dom'
-import RingLoader from "react-spinners/ClipLoader";
+import RingLoader from "react-spinners/RingLoader";
 import { toast } from 'react-toastify';
 import './App.css'
 
