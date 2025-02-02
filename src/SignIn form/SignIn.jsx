@@ -25,7 +25,7 @@ const SignIn = ({signedIn, onAuthenticate, loadUser}) => {
   const handleSubmit = (event) => {
     event.preventDefault(); // Prevents form submission reload
     setLoading(true)
-    fetch('https://face-ecognition-api.onrender.com/signin', {
+    fetch('faceecognitionapi-production.up.railway.app/signin', {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

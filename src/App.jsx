@@ -71,7 +71,7 @@ console.log(userinfo)
    
 
         const setUpJSON = (imageUrl) => {
-            return fetch('https://face-ecognition-api.onrender.com/setUpInfo', {
+            return fetch('faceecognitionapi-production.up.railway.app/setUpInfo', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ imageUrl }),
@@ -108,7 +108,7 @@ setInputUrl(event.target.value)
 }
 
 const updateEntries = (id) => {
-    fetch(`https://face-ecognition-api.onrender.com/image`, {
+    fetch(`faceecognitionapi-production.up.railway.app/image`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id }) // Send the actual id in the request body
